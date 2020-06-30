@@ -1,3 +1,10 @@
+// new fullpage('#fullPage', {
+//     autoScrolling: true,
+//     navigation: true,
+//     scrollHorizontally: true,
+//     slideNavigation:true
+// })
+
 /*!
     * Start Bootstrap - Resume v6.0.0 (https://startbootstrap.com/template-overviews/resume)
     * Copyright 2013-2020 Start Bootstrap
@@ -40,3 +47,24 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+
+// $(window).keydown(function(e) {
+//     //e.preventDefault(); //prevent default arrow key behavior
+    
+//     var targetElement;
+//     //down
+//     if (e.keyCode == 40) {
+//         $targetElement = $('.active').next('#scroll');
+//     }
+//     //up
+//     else if (e.keyCode == 38) {
+//         $targetElement = $('.active').prev('#scroll');
+//     }
+//     if (!$targetElement.length) {return;}
+//     $('.active').removeClass('active');
+//     $targetElement.addClass('active');
+    
+//     //scroll element into view    
+//     $('html, body').clearQueue().animate({scrollTop: $targetElement.offset().top }, 1000);
+// });
